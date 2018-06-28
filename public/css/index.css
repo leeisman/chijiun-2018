@@ -1,0 +1,433 @@
+body {
+    margin: 0px;
+}
+
+#web-header {
+    display: inline-block;
+    height: 100px;
+    line-height: 100px;
+    vertical-align: bottom;
+}
+
+#web-header .header-left {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+#web-header .header-right {
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+
+#web-header .header-left img {
+    vertical-align: middle;
+    width: 100%;
+}
+
+#web-header .menu ul {
+    margin: 0;
+    list-style-type: none;
+}
+
+#web-header .menu li {
+    margin-right: 4%;
+    color: #507ec5;
+    font-size: 16px;
+    font-family: Arial;
+    float: left;
+}
+
+#web-header .menu a {
+    cursor: pointer;
+    color: #507ec5;
+    text-decoration: none;
+}
+
+#web-header .menu a:hover {
+    color: #20B2AA;
+}
+
+#web-header .dropdown {
+    display: inline-block;
+}
+
+#web-header .dropdown-content {
+    position: fixed;
+    top: 70px;
+    left: 50%;
+    background-color: #507ec5;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    z-index: 1;
+    display: none;
+}
+
+#web-header .dropdown-content a {
+    height: 30px;!important;
+    line-height: 30px;!important;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    padding: 10px 20px;
+    color: #fff;
+
+}
+
+#web-header.dropdown-content a:hover {background-color: #f1f1f1}
+
+#web-header .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#web-header .language a {
+    margin-left: 20px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 20px;
+    background-color: #507ec5;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 10px;
+    padding: 5px 15px 5px 15px;
+}
+
+#phone-header {
+    display: none;
+    line-height: 52px;
+    width: 100%;
+    background-color: #333;
+    vertical-align: bottom;
+}
+
+#phone-header .header-left {
+    float: left;
+    width: 40%;
+    height: 100%;
+}
+
+#phone-header .header-right {
+    right: 5%;
+    width: 10%;
+    float: right;
+}
+
+#phone-header .bar {
+    color: #fff;
+}
+
+#phone-header .header-left a {
+    vertical-align: middle;
+    margin-left: 10%;
+    color: #fff;
+    text-decoration: none;
+}
+
+#phone-header .header-left img {
+    vertical-align: middle;
+    width: 30%;
+}
+
+#phone-header nav {
+    display: none;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+#nav-toggle:checked ~ nav {
+    display: block;
+}
+
+#phone-header ul {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#phone-header li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.clear {
+    clear: both;
+}
+
+.banner {
+    position: relative;
+    background: url("http://www.chijiun.orgates.net/images/banner.jpg") no-repeat;
+    background-size: 100% 400px;
+    width: 100%;
+    height: 400px;
+}
+
+.banner-note {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 45%;
+    height: 50%;
+}
+
+.banner .b1 {
+    font-style: italic;
+    color: #191970;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.banner .b1 span {
+    color: #FF4500;
+    margin-left: 10px;
+}
+
+.banner .b2 {
+    margin-right: 10px;
+    color: darkblue;
+    font-size: 40px;
+    font-weight: bold;
+    float: right;
+}
+
+.container {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.production-line {
+    padding: 50px 0 30px 0;
+    -webkit-align-items: center; /* Safari 7.0+ */
+    display: flex;
+    align-items: center;
+}
+
+.production-line b {
+    width: 100%;
+    height: 2px;
+    opacity: .1;
+    background-color: currentColor;
+}
+
+.production-line span {
+    text-align: center;
+    min-width: 20%;
+    color: rgb(85, 85, 85);
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.production {
+    width: 100%;
+}
+
+.sub-production {
+    display: inline-block;
+    width: 28%;
+    margin: 0 2% 0 2%;
+}
+
+.sub-production img {
+    width: 100%;
+}
+
+.sub-production h5 {
+    width: 100%;
+}
+
+#footer {
+    background-color: #f1f1f1;
+}
+
+.flex-container {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f1f1f1;
+}
+
+#footer .left-half {
+    color: white;
+    width: 25%;
+    min-height: 250px;
+    line-height: 75px;
+    padding-top: 20px;
+}
+
+#footer .right {
+    width: 50%;
+    min-height: 300px;
+    padding-top: 20px;
+    line-height: 30px;
+    color: #334862;
+}
+
+#footer .right a {
+    color: #3a589d;
+}
+
+#footer .attention-title {
+    color: #0099FF;
+    line-height: 1.05;
+    letter-spacing: .1em;
+    font-size: 1em;
+}
+
+#footer .attention-icon {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#footer .facebook {
+    background-color: #3a589d;
+    border-radius: 50%;
+    text-align: center;
+    width: 80px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+#footer .youtube {
+    cursor: pointer;
+    margin-right: 20px;
+    text-align: center;
+    width: 80px;
+    font-size: 10px;
+    background: url('/image/youtube-sociocon.png');
+    background-size: 100%;
+}
+
+#footer .something ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    color: #334862;
+}
+
+#footer .something li {
+    line-height: 40px;
+}
+
+#footer a {
+    text-decoration: none;
+    cursor: pointer;
+    color: dimgrey;
+}
+
+#footer .copyright {
+    width: 100%;
+    height: 40px;
+    background-color: #5b5b5b;
+    color: #fff;
+    line-height: 40px;
+}
+
+#footer .something li a:hover{
+    color: #20B2AA;
+}
+
+@media only screen and (max-width: 1070px) {
+
+    #web-header {
+        display: none;
+    }
+
+    #phone-header {
+        display: inline-block;
+    }
+
+    .banner {
+        position: relative;
+        background-size: 100% 100%;
+        width: 100%;
+        height: 200px;
+    }
+
+    .banner .b1 {
+        font-size: 40px;
+    }
+
+    .banner .b2 {
+        font-size: 26px;
+    }
+
+}
+
+@media only screen and (max-width: 660px) {
+
+    #web-header {
+        display: none;
+    }
+
+    #phone-header {
+        display: inline-block;
+    }
+
+    .banner {
+        position: relative;
+        background-size: 100% 100%;
+        width: 100%;
+        height: 200px;
+    }
+
+    .banner .b1 {
+        font-size: 30px;
+    }
+
+    .banner .b2 {
+        font-size: 18px;
+    }
+
+    .sub-production {
+        width: 45%;
+    }
+
+    .production-line span {
+        text-align: center;
+        min-width: 50%;
+        color: rgb(85, 85, 85);
+        font-weight: bold;
+        font-size: 1.3em;
+    }
+
+    .container {
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    #footer .left-half {
+        width: 100%;
+        min-height: 150px;
+    }
+
+    #footer .right {
+        width: 100%;
+        min-height: 200px;
+    }
+
+    #footer .copyright {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .banner .b1 {
+        font-size: 24px;
+    }
+
+    .banner .b2 {
+        font-size: 16px;
+    }
+
+    .banner-note {
+        position: absolute;
+        top: 60%;
+        right: 0;
+        width: 50%;
+    }
+}
